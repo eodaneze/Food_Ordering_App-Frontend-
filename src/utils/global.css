@@ -1,0 +1,6 @@
+:root{
+    --primary: rgb(234,114,39);
+}
+.text{
+    color: var(--primary);
+}

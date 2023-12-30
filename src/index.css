@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+:root{
+  --primary: rgb(234,114,39);
+  --secondary: #FDF7F3;
+}
+.text{
+  color: var(--primary);
+}
+.bg{
+   background-color: var(--secondary);
+}
+body{
+  background-color: var(--secondary);
+}
